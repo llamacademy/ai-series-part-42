@@ -53,6 +53,5 @@ Interested in other AI Topics in Unity, or other tutorials on Unity in general?
 ## Requirements
 * Requires Unity 2020.3 LTS or higher.
 * [Navigation Components](https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html)
-* [Unity Particle Pack](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325)
-* I'm using [Infinity PBR's Gargoyle](https://assetstore.unity.com/packages/3d/characters/creatures/gargoyles-fantasy-rpg-37416?aid=1101l9QvC) but this can be replaced with any root motion animated model (one is included). 
-	* If you're using the Dude model for the player, be sure to update the Animator paramters to set `"velx"` `"vely"` to the `Velocity.x` & `Velocity.y` respectively as is done in `EnemyMovement.cs`
+* I'm using [Infinity PBR's Gargoyle](https://assetstore.unity.com/packages/3d/characters/creatures/gargoyles-fantasy-rpg-37416?aid=1101l9QvC) but this can be replaced with any root motion animated model (such as "The Dude", which is included in this repository as the "enemy"). 
+	* If you're using "The Dude" model for the player, be sure to update the Animator paramters to set `"velx"` `"vely"` to the `Velocity.x` & `Velocity.y` respectively as is done in `EnemyMovement.cs`
